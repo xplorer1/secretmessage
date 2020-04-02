@@ -611,7 +611,7 @@ class Home extends React.Component {
 
     componentDidMount() {
 
-        let token = store.get("token");
+        /*let token = store.get("token");
         let user = store.get("userdata");
 
         if(token) {
@@ -645,7 +645,7 @@ class Home extends React.Component {
         }
         else {
             this.handleSignOut();
-        }
+        }*/
     }
 }
 
